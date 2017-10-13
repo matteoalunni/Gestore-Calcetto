@@ -26,6 +26,9 @@ public class Main {
 		t.removeGame(2, 0);
 		t.removeGame(1, 0);
 		t1.addGame(0, team2, team1);
+		t1.addGame(0, team2, team1);
+		
+		
 	}
 	
 }
