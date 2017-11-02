@@ -13,8 +13,8 @@ public class PlayerCard {
 		this.yellowCard = 0;
 	}
 	
-	public void addGoal(){
-		this.goal++;
+	public void addGoal(int s){
+		this.goal+= s;
 	}
 	
 	public void addMatch(){

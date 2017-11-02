@@ -1,15 +1,15 @@
 
 public class Player {
 
-	public String name;
-	public String surname;
-	public int age;
-	public PlayerCard card;
+	private String name;
+	private String surname;
+	private int age;
+	private PlayerCard card;
 	
-	public Player(String n, String c, int e){
+	public Player(String n, String c, int a){
 		this.name = n;
 		this.surname = c;
-		this.age = e;
+		this.age = a;
 		this.card = new PlayerCard();
 	}
 	
