@@ -19,7 +19,7 @@ public class Tournament {
 		else this.awards = new int[] {1400,800,400};
         
 		double exp = (Math.log(size)/Math.log(2));
-		if(exp != (int)exp) {
+		if(exp != (int)exp || size <= 1) {
 			System.out.println("Il numero di squadre selezionate non sono corrette.");
 			System.exit(0);
 		}
