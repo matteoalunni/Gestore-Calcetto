@@ -4,7 +4,7 @@ public class Main {
 	
 	public static void main(String[] args){
 		
-		Tournament t = new Tournament(true, 16);
+		Tournament t = new Tournament(true, 1);
 		
 		t.autoTournament();
 		
